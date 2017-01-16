@@ -1,5 +1,6 @@
 body {
-	background-color: rgba(121, 85, 72, 0.87);
+	background-color: #795548;
+	/*background-color: rgba(3, 169, 244, 0.52);*/
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -91,7 +92,7 @@ header {
 	margin-top: 380px;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgba(244, 67, 54, 0.73);
+	background-color: #da3327;
 }
 
 #main-navigation-bar > ul > li {
@@ -179,11 +180,15 @@ header {
 	cursor: pointer;
 }
 
-.newsletter-signup {
-	width: auto;
-	height: 100px;
-	margin-top: 1300px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: black;
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #da3327;
+	margin: 20px 0px 20px 0px;
+	padding: 5px 0px 0px 0px;
+	text-align: center;
+
 }
+
+	
+
