@@ -1,9 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World</title>
+	<title>Socks Monkey</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-	<h1>"Hello World"</h1>
+	<!--Top Nav Bar and Input-->
+	<header id="main-header">
+
+		<!--circle logo-->
+		<img class="logo" src="img/monkeylogo2.jpg">
+
+		<!--Store Title -->
+		<header id="header-name">Socks Monkey</header>
+
+		<header id="sub-header-name">The Animal Socks Store</header>
+
+		<!--Input field-->
+		<input type="search" id="search" placeholder="Search" />
+	</header>
+
+	<!--Pictures/Banner -->
+	<section id="banner">
+		<div>
+			<img id="elephant-model" src="img/elephantexample.png">
+		</div>
+
+		<div>
+			<img id="flamingo-model" src="img/flamingoexample.jpg">
+		</div>
+
+		<div>
+			<img id="pug-model" src="img/pugexample.jpg">
+		</div>
+
+		<div>
+			<img id="sloth-model" src="img/slothexample.jpg">
+		</div>
+	</section>
+
+<!--Navigational Section-->
+	<section id="navigation">
+		<div id="main-navigation-bar">
+			<ul>
+				<li><a href="#shop">Shop</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#myaccount">My Account</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li style="float: right"><a class="active" href="#cart">Cart (0)</a></li>
+			</ul>
+		</div>		
+	</section>
+
+<!--Products Section-->
+	<section class="products">
+		<article class="product-article">
+			<figure>
+				<img class="product-article-thumbnail" src="img/elephant.jpg">
+			</figure>
+			<header>
+				<span class="product-article-name">Elephant Socks</span>
+			</header>
+			<p>Price: $8.00</p>
+			<div class="add-to-cart-button">
+				<button name="button">Add to Cart</button>
+			</div>
+			
+		</article>
+	</section>
+
+		
+	
 </body>
 </html>
