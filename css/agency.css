@@ -284,6 +284,10 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  padding-bottom: 30px;
+}
+.section-heading-paragraph {
+  text-align: left;
 }
 section h3.section-subheading {
   font-size: 16px;
