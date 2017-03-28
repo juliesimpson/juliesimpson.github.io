@@ -1092,7 +1092,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: inherit;
   line-height: inherit;
 }
@@ -3018,7 +3018,7 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 4px;
 }
 .btn:focus,
